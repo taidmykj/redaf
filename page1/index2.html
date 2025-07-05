@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Redaf | Create Account</title>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Taid Myk J"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<script src="scriptOf_pg2.js"></script>
+    <body>
+        
+        <div class="container">
+            <fieldset class="field">
+                <legend class="lgd" id="legend">Firstname</legend>
+                <div id="nameOne"><input type="text"  id="first" placeholder="Albert" class="inputname" maxlength="15" minlength="2" required></div>
+            </fieldset>
+            <div id="rules">
+                
+            </div>
+            <div id="nameTwo"><fieldset class="field">
+                <legend class="lgd">Lastname</legend>
+                <input type="text" id="second" placeholder="Einstein" class="inputname" minlength="3" maxlength="15" required>
+            </fieldset></div>
+           
+            <fieldset class="field">
+                <legend class="lgd">Email</legend>
+                <div id="emailHere"><input type="email" id="email" placeholder="example@gmail.com" class="inputname" minlength="11" required></div>
+            </fieldset>
+            <p id="rad" onclick="rules()">Rules</p>
+            <div id="placeBtn">
+            <button class="btn submit" onclick="check('first', 'second')"  >Next</button></div>
+        </div>
+            <p><a href="index.html" class="back">I already have an account</a></p>
+        
+        <p class="redaf">
+                <span class="letaR">R</span><span class="letaE">E</span>D<span class="letaA">A</span>F</p>
+
+    </body>
+          </html>
