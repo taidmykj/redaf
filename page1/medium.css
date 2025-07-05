@@ -1,0 +1,62 @@
+body {
+    background-color: #131D24;
+    font-family: ;
+    text-align: center;
+    min-width: 401px;
+    max-width: 600px;
+}
+
+.redaf {
+    font-size: 2rem;
+    color: lime;
+    font-weight: 1000;
+    padding-top: 10%;
+}
+
+.letaR, .letaE {
+    color: tomato;
+    font-size: 2.4rem;
+}
+
+.letaE, .letaA {
+    font-size: 1.6rem;
+}
+
+.msg {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn {
+    color: white;
+    border: 1px solid aqua;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: 1000;
+    background-color: transparent;
+    
+    
+}
+
+
+.create {
+    margin-left: 5%;
+    margin-top: 70%;
+}
+
+.login {
+    
+}
+
+.button {
+    text-align: left;
+    
+}
+
+.button-2 {
+    margin-top: -50px;
+    margin-left: 60%;
+}
