@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Redaf | Suggestion Box</title>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Chacha Ree"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="suggest.css"/>
+        
+    </head>
+<script src="testInput.js"></script>
+    <script src="suggest.js"></script>
+<script src="dashboard.js"></script>
+    <body>
+        <div class="top">
+            <h1><span class="redaf"><span class="letaR">R</span><span class="letaE">E</span>D<span class="letaA">A</span>F</span> <img onclick="menuOptions()" src="../svgImg/menu.svg" class="logo" alt="see Account" height="30px"/></h1>
+           
+        </div>
+        <div class="space"></div>
+<div id="aside"></div>
+      <h1 class="title">
+            <span class="highlight">
+               CREATE POST
+            </span>
+        </h1>
+      <div class="outer">
+        <div class="" id="mainDisplay">
+          <fieldset class="">
+            <legend class="">Name<sup style="color: red; font-size: 0.6rem;"> Required</sup></legend>
+            <input class="" id="name" type="" placeholder="ReSquare Electronics" oninput="test()"/>
+              <img src="../svgImg/info.svg" height="20px"/><p class="info" id="err">Your Company name or Shop name</p>
+          </fieldset>
+          <fieldset class="">
+            <legend class="">Email</legend>
+            <input class="" id="email" type="email" placeholder="example@gmail.com"/>
+              <img src="../svgImg/info.svg" height="20px"/><p class="info">Or your own link</p>
+          </fieldset>
+          <fieldset class="">
+            <legend class="">Contacts<sup style="color: red;font-size: 0.6rem;"> Required</sup></legend>
+            <input class="" id="contacts" type="tel" placeholder="+254789925270"/>
+              <img src="../svgImg/info.svg" height="20px"/><p class="info">Must be a funtional Whatsapp Number</p>
+          </fieldset>
+          <fieldset class="">
+            <legend class="">Slash (/) Link<!--sup style="color: red;font-size: 0.6rem;"> Required</sup--></legend>
+            <input class="" id="link" type="" placeholder="https://mywebsite.com"/>
+              <img src="../svgImg/info.svg" height="20px"/><p class="info">It will be linked to words with (/) in your message</p>
+          </fieldset>
+          <fieldset class="">
+            <legend class="">Photo or Video Link</legend>
+            <input class="" id="srcLink" type="" placeholder="https://files.catbox.moe/knwuiw.jpg"/>
+              <img src="../svgImg/info.svg" height="20px"/><p class="info">Go to <a href="https://catbox.moe">catbox.moe</a> and upload your photo or short video</p>
+          </fieldset>
+          <fieldset class="">
+            <legend class="">Message<sup style="color: red;font-size: 0.6rem;"> Required</sup></legend>
+            <textarea class="mess" id="message" placeholder="Message to viewers. Words with (/) will be linked to that (yourlink) URL."></textarea>
+          </fieldset>
+            
+          <!--fieldset class="">
+            <legend class="">Customer Message</legend>
+            <textarea class="" id="" title="" placeholder="Hello Resquare ! I need some Products;"></textarea>
+          </fieldset-->
+        </div>
+      </div>
+        <div id="next"><button class="continue" onclick="next()">Next</button></div> 
+      <!--div>
+            <p class="redaf">
+                <span class="letaR">R</span><span class="letaE">E</span>D<span class="letaA">A</span>F</p>
+            <p class="minimsh">× We are ready when you are <br/> ready</p>       
+      </div>
+    </body-->
+</html>
