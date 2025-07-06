@@ -1,0 +1,48 @@
+body {
+    background-color: #131D24;
+    font-family: ;
+    text-align: center;
+    min-width: 401px;
+    max-width: 600px;
+}
+
+.redaf {
+    font-size: 2rem;
+    color: lime;
+    font-weight: 1000;
+    padding-top: 10%;
+}
+
+.letaR, .letaE {
+    color: tomato;
+    font-size: 2.4rem;
+}
+
+.letaE, .letaA {
+    font-size: 1.6rem;
+}
+
+.pg3 {
+    margin-top: 50%;
+    animation: fade 1s infinite alternate;
+}
+
+@keyframes fade {
+    100% {
+        opacity: 20%;
+    }
+    0% {
+        opacity: 100%;
+    }
+}
+
+.star {
+    font-weight: 1000;
+    animation: fade 1s infinite alternate;
+}
+
+.welcome {
+    font-size: 1rem;
+    color: white;
+    font-family: monospace;
+}
