@@ -1,0 +1,247 @@
+
+
+body {
+  background-color: #131D24;
+  margin: 0;
+  padding: 0;
+  max-width: 380px;
+  max-width: 500px;
+  font-family: 'martian-relaxed';
+}
+
+@font-face {
+  font-family: 'martian-relaxed';
+  src: url('./fonts/martian');
+}
+
+.top-part {
+  width: 100%;
+  padding: 3%;
+  background-color: ;
+  border-bottom: 1px solid aqua;
+}
+
+.back-btn {
+  display: ;
+  height: 25px;
+  width: 30%;
+  border: 1px solid aliceblue;
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding-top: 3px;
+  text-align: center;
+  background-color: transparent;
+  margin-top: 0px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  
+}
+/*
+.back-btn {
+  margin-top: 5px;
+  margin-right: 10px;
+}*/
+
+.cover-photo {
+  max-height: 170px;
+  width: 100%;
+  margin-block-end: 2%;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 0px;
+}
+
+.dp-photo {
+  height: 90px;
+  width: 90px;
+  border-radius: 90px;
+  background-color: grey;
+  margin-top: -38px;
+  margin-left: 5%;
+  display: inline-block;
+  object-fit: cover;
+}
+
+.user-name {
+  margin-top: -70px;
+  margin-left: 120px;
+  color: aliceblue;
+  font-size: 1rem;
+  font-weight: 1000;
+}
+
+.user-link {
+  margin-top: -10px;
+  margin-left: 120px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: grey;
+  text-decoration: underline;
+}
+
+.user-bio {
+  margin-top: -10px;
+  margin-left: 120px;
+  color: antiquewhite;
+  font-size: 0.7rem;
+  font-weight: 500;
+  
+}
+
+.user-about-field {
+  border-radius: 10px;
+  height: 30px;
+  width: 100%;
+  border: none;
+  font-size: 0.7rem;
+  text-align: left;
+  margin-top: 10px;
+}
+
+legend {
+  font-size: 1rem;
+  font-weight: 500;
+  color: aliceblue;
+  
+}
+
+.content {
+  color: aqua;
+  margin: 5px;
+  text-decoration: underline;
+  font-size: 0.8rem;
+  
+}
+
+.about-field {
+  margin-top: 30px;
+}
+
+
+/* Post Styling*/
+/*
+hr {
+  border: 1px solid aqua;
+  width: 100%;
+  /*margin: 20px;
+}
+
+.main-content {
+  max-height: 700px;
+  color: #fff;
+  width: 90%;
+  margin: 3%;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  border-radius: 20px;
+  /*box-shadow: 0 3px 23px rgba(141, 141, 141, 0.3);
+}
+
+.dp-profile {
+  height: 70px;
+  width: 70px;
+  border-radius: 70px;
+  border: none;
+  object-fit: cover;
+  margin: 10px;
+  background-color: lightgray;
+}
+
+.my-name {
+  margin-top: -70px;
+ margin-left: 82px;
+  font-size: 1rem;
+  font-weight: 800;
+  display: flex;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+.verify {
+  margin-top: -2px;
+  height: 20px;
+}
+
+.my-link {
+  margin-top: -15px;
+ margin-left: 82px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: gray;
+}
+
+.view-profile {
+  margin-left: 68%;
+  display: flex;
+  padding: 10px;
+  margin-top: -40px;
+  border: none;
+  background-color: aquamarine;
+  font-size: 1rem;
+  font-weight: 1000;
+  border-radius: 10px;
+  width: 25%;
+  height: 40px;
+}
+
+.my-message {
+  margin-top: 20px;
+  background-color: ;
+  width: 95%;
+  margin-left: 0%;
+  padding: 10px;
+  border-radius: 10px;
+  /*box-shadow: 0 3px 23px rgba(141, 141, 141, 0.5);
+}
+
+.message {
+  word-break: break-word;
+  margin: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.my-image-post {
+  max-height: 470px;
+  width: 95%;
+  object-fit: contain;
+  background-color: transparent;
+}
+
+.pricing {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.price {
+  border: none;
+  background-color: lime;
+  color: white;
+  border-radius: 10px;
+  height: 50px;
+  width: 40%;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-left: 5%;
+}
+
+.last {
+  background-color: orangered;
+  text-decoration: line-through;
+}
+
+.cart-now {
+  height: 55px;
+  width: 95%;
+  margin: 3%;
+  border-radius: 20px;
+  background-color: tomato;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 1000;
+}
+
+End of Post Styling */
